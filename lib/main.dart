@@ -10,8 +10,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Something"),),
-      body: const Center(child: Text("Something"),),
+      appBar: AppBar(
+        title: const Text("Some"),
+      ),
+      body: const Center(
+        child: Text("Something"),
+      ),
     );
   }
 }
