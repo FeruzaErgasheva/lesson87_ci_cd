@@ -4,6 +4,6 @@ import 'package:lesson87_ci_cd/main.dart';
 void main() {
   testWidgets("My App Test", (tester) async {
     await tester.pumpWidget(const MyApp());
-    expect(find.text("Salom, CI/CD!"), findsOneWidget);
+    expect(find.text("Something"), findsOneWidget);
   });
 }
